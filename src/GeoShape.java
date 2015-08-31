@@ -1,19 +1,32 @@
+import java.awt.Color;
 
 public class GeoShape {
 	private double originX;
 	private double originY;
 	private Color color;
+	
+	public double getOriginY() {
+		return originY;
+	}
+
+	public void setOriginY(double originY) {
+		this.originY = originY;
+	}
 
 	public double getOriginX() {
 		return originX;
 	}
 
-	// Complete the accessors for this class as an exercise
-	public double getOriginY() {
-		return originY;
+	private void setOriginX(double originX) {
+		this.originX = originX;
 	}
 
-	public void Color(String color) {
-		// return this.Color();
+	public Color getColor() {
+		return color;
 	}
+
+	public void setColor(Color color) {
+		this.color = color;
+	}
+
 }
