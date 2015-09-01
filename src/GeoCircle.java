@@ -9,4 +9,10 @@ public class GeoCircle extends GeoShape {
 	public void setRadius(double radius) {
 		this.radius = radius;
 	}
+
+	@Override
+	public void drawShape() {
+		// TODO Auto-generated method stub
+		
+	}
 }

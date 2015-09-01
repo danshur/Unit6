@@ -32,4 +32,10 @@ public class GeoTriangle extends GeoShape {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public void drawShape() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

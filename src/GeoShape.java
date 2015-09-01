@@ -1,9 +1,11 @@
 import java.awt.Color;
 
-public class GeoShape {
+abstract public class GeoShape {
 	private double originX;
 	private double originY;
 	private Color color;
+
+	abstract public void drawShape();
 
 	public double getOriginY() {
 		return originY;

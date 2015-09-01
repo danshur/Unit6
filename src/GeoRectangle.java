@@ -23,4 +23,9 @@ public class GeoRectangle extends GeoShape {
 	public void setHeight(double height) {
 		this.height = height;
 	}
+
+	@Override
+	public void drawShape() {
+		System.out.println("drawing a rectangle");
+	}
 }
