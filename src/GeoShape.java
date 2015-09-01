@@ -4,7 +4,7 @@ public class GeoShape {
 	private double originX;
 	private double originY;
 	private Color color;
-	
+
 	public double getOriginY() {
 		return originY;
 	}

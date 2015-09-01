@@ -3,7 +3,7 @@ public class GeoTriangle extends GeoShape {
 	private double lenght1;
 	private double lenght2;
 	private double lenght3;
-	
+
 	public double getLenght1() {
 		return lenght1;
 	}
@@ -28,9 +28,7 @@ public class GeoTriangle extends GeoShape {
 		this.lenght3 = lenght3;
 	}
 
-	
-	
-	public GeoTriangle() {
+	public GeoTriangle(double length1, double length2, double length3) {
 		// TODO Auto-generated constructor stub
 	}
 

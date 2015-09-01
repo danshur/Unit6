@@ -19,9 +19,15 @@ public class TalkingBeetle extends Beetle {
 	}
 
 	public void makeCircle(double radius) {
-		 System.out.println(this.getName() + " is about to make a circle");
-		 super.makeCircle(radius);
-		 }
+		System.out.println(this.getName() + " is about to make a circle");
+		super.makeCircle(radius);
+	}
+
+	@Override
+	public void turn(double distance) {
+		System.out.println("Watch out, Im making a circle");
+		super.turn(distance);
+	}
 
 	public String getName() {
 		return name;
@@ -29,5 +35,5 @@ public class TalkingBeetle extends Beetle {
 
 	public void setName(String name) {
 		this.name = name;
-	} 
+	}
 }
