@@ -19,7 +19,7 @@ abstract public class GeoShape {
 		return originX;
 	}
 
-	private void setOriginX(double originX) {
+	public void setOriginX(double originX) {
 		this.originX = originX;
 	}
 
