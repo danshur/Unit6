@@ -34,8 +34,7 @@ public class GeoTriangle extends GeoShape {
 
 	@Override
 	public void drawShape() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("drawing a triangle");
 	}
 
 }

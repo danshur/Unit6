@@ -12,7 +12,6 @@ public class GeoCircle extends GeoShape {
 
 	@Override
 	public void drawShape() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("drawing a circle");
 	}
 }
